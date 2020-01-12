@@ -1,0 +1,30 @@
+.member{
+  width: 100%;
+  margin: 0px;
+}
+.member ul{
+  list-style: none;
+  height: 300px;
+  padding: 20px 0 20px 20px;
+  margin: 0;
+  border: 1px solid #e5e5e5;
+}
+.member ul li{
+  display: list-item;
+  float: left;
+  width: 100px;
+  height: 160px;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.member ul .pic img{
+  display: block;
+  width: 100%;
+  max-width: 100px;
+  max-height: 100px;
+}
+.member ul .name_kr,.name_en{
+  display: block;
+  text-align: center;
+  padding: 2px 0 0 0;
+}
